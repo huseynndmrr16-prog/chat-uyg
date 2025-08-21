@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-buttons button,
+#registerForm button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.google { background: #db4437; color: #fff; }
+.icloud { background: #007aff; color: #fff; }
+.guest { background: #999; color: #fff; }
+.register { background: #4caf50; color: #fff; }
+
+#registerForm {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#registerForm input {
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.hidden {
+  display: none;
+}
